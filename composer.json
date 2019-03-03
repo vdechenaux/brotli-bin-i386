@@ -1,0 +1,27 @@
+{
+    "name": "vdechenaux/brotli-bin-i386",
+    "description": "Brotli binary provided by google/brotli and compiled for i386",
+    "keywords": ["brotli", "linux", "i386"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Dechenaux",
+            "email": "vincent.dechenaux@gmail.com"
+        },
+        {
+            "name": "Brotli Authors",
+            "homepage": "https://github.com/google/brotli"
+        }
+    ],
+    "autoload": {
+        "files": ["register_bin.php"]
+    },
+    "bin": [
+        "bin/brotli-i386"
+    ],
+    "require": {},
+    "suggest": {
+        "vdechenaux/brotli": "Adds Brotli support in PHP thanks to this binary"
+    }
+}
