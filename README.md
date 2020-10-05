@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/vdechenaux/brotli-bin-i386.svg?branch=master)](https://travis-ci.org/vdechenaux/brotli-bin-i386)
+
 # How to use it ?
 This package only contains the binary that you will need to have [vdechenaux/brotli-php](https://github.com/vdechenaux/brotli-php) working.
 

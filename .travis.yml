@@ -1,0 +1,5 @@
+language: bash
+
+script:
+    - ls
+    - echo "Hello World" | bin/brotli-i386 | bin/brotli-i386 -d | grep -Fx "Hello World"
